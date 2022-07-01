@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Main{
+    border: solid;
+    width: 100vw;
+    height: 50vh;
+    margin: 200px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Counter{
+ 
+    width: 10vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-grp{
+    width: 20vw;
+  
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+.Incr{
+    width: 100px;
+    height: 50px;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+.Decr{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+.Incr:hover{
+    background-color: black;
+    color: beige;
+   
+}
+.Decr:hover{
+    background-color: black;
+    color: beige;
+    
+}
